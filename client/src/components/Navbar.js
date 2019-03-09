@@ -1,18 +1,6 @@
 import React, { Component } from 'react';
-import './components.css';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
-} from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import './css/Navbar.css';
 
 class NavbarComponent extends Component {
 
@@ -37,7 +25,7 @@ class NavbarComponent extends Component {
                         </NavItem>
                     </Nav>
                 </Navbar>
-            </div>
+            </div >
         );
     }
 
