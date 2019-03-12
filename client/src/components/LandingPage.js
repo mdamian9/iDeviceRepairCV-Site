@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavbarComponent from './Navbar';
 import CarouselComponent from './CarouselComponent'
-import './css/LandingPage.css';
+import '../assets/css/LandingPage.css';
 // import * as Instafeed from 'instafeed.js';
 
 // const feed = new Instafeed({
@@ -22,7 +22,10 @@ class LandingPage extends Component {
             <div>
                 <NavbarComponent />
                 <br />
-                <CarouselComponent />
+                <div className='carousel-comp'>
+                    <h1>Welcome!</h1><br />
+                    <CarouselComponent />
+                </div>
             </div>
         );
     };

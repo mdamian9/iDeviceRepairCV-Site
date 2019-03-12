@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import './css/Navbar.css';
+import '../assets/css/Navbar.css';
 
 class NavbarComponent extends Component {
 
