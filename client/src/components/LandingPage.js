@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavbarComponent from './Navbar';
+import CarouselComponent from './CarouselComponent'
 import './css/LandingPage.css';
 // import * as Instafeed from 'instafeed.js';
 
@@ -20,6 +21,8 @@ class LandingPage extends Component {
         return (
             <div>
                 <NavbarComponent />
+                <br />
+                <CarouselComponent />
             </div>
         );
     };
