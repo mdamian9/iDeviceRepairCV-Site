@@ -10,18 +10,18 @@ class NavbarComponent extends Component {
 
     render() {
         return (
-            <div>
+            <div className="navbar-comp">
                 <Navbar color="light" light expand="md">
                     <NavbarBrand href="/">iDeviceRepairCV</NavbarBrand>
                     <Nav className="ml-auto" navbar>
-                        <NavItem className="test">
-                            <NavLink href="/">Home</NavLink>
+                        <NavItem>
+                            <NavLink href="/"><span className="navlink-comp">Home</span></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/aboutus">About Us</NavLink>
+                            <NavLink href="/aboutus"><span className="navlink-comp">About Us</span></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/contact">Contact</NavLink>
+                            <NavLink href="/contact"><span className="navlink-comp">Contact</span></NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>

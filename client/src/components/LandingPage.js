@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavbarComponent from './Navbar';
-import CarouselComponent from './CarouselComponent'
+import CarouselComponent from './CarouselComponent';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/LandingPage.css';
 // import * as Instafeed from 'instafeed.js';
 
@@ -22,10 +23,11 @@ class LandingPage extends Component {
             <div>
                 <NavbarComponent />
                 <br />
+                <h1 className="text-center welcome">Welcome!</h1><br />
                 <div className='carousel-comp'>
-                    <h1>Welcome!</h1><br />
                     <CarouselComponent />
                 </div>
+                <br />
             </div>
         );
     };
