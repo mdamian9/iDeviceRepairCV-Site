@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavbarComponent from './Navbar';
 import CarouselComponent from './CarouselComponent';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import FooterComponent from './Footer';
 import '../assets/css/LandingPage.css';
 // import * as Instafeed from 'instafeed.js';
 
@@ -17,20 +17,25 @@ import '../assets/css/LandingPage.css';
 // feed.run();
 // <div id="instafeed"></div>
 
-class LandingPage extends Component {
-    render = () => {
-        return (
-            <div>
-                <NavbarComponent />
-                <br />
-                <h1 className="text-center welcome">Welcome!</h1><br />
-                <div className='carousel-comp'>
-                    <CarouselComponent />
-                </div>
-                <br />
+const LandingPage = () => {
+    return (
+        <div>
+            <NavbarComponent />
+            <div className="full-div text-center">
+                <h1 className="welcome">Welcome!</h1>
             </div>
-        );
-    };
+            <div className="full-div s-two">
+                <h1>
+                    full
+                    </h1>
+            </div>
+            <div className='carousel-comp'>
+                <CarouselComponent />
+            </div>
+            <br />
+            <FooterComponent />
+        </div>
+    );
 };
 
 export default LandingPage;

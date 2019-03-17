@@ -9,19 +9,14 @@ import {
 
 const items = [
   {
-    src: 'assets/images/sample-images/1.jpg',
+    src: 'assets/images/sample-images/2.jpg',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: 'assets/images/sample-images/2.jpg',
+    src: 'assets/images/sample-images/3.jpg',
     altText: 'Slide 2',
     caption: 'Slide 2' 
-  },
-  {
-    src: 'assets/images/sample-images/3.jpg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
   }
 ];
 

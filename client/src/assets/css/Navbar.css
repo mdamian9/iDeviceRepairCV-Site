@@ -1,6 +1,7 @@
 .navbar-comp {
     position: sticky;
     top: 0;
+    width: 100%;
     background: lightgray;
 }
 
