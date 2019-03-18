@@ -14,11 +14,12 @@
 .welcome {
   color: white;
   font-size: 3.5rem;
-  font-family: 'Courgette', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 .carousel-comp {
   margin: 0 auto;
   width: 50%;
+  text-align: center;
 }
 

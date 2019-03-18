@@ -9,7 +9,7 @@ const NavbarComponent = () => {
                 <NavbarBrand href="/"><span className="navlink-comp">iDeviceRepairCV</span></NavbarBrand>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="/"><span className="navlink-comp"><i className="fa fa-images" /> Gallery</span></NavLink>
+                        <NavLink href="/gallery"><span className="navlink-comp"><i className="fa fa-images" /> Gallery</span></NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="/aboutus"><span className="navlink-comp"><i className="fa fa-info-circle" /> About Us</span></NavLink>
@@ -18,7 +18,7 @@ const NavbarComponent = () => {
                         <NavLink href="/contact"><span className="navlink-comp"><i className="fa fa-envelope" /> Contact</span></NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#"><span className="navlink-comp"><i className="fab fa-instagram" /> Instagram</span></NavLink>
+                        <NavLink href="https://instagram.com/idevicerepaircv" target="_blank"><span className="navlink-comp"><i className="fab fa-instagram" /> Instagram</span></NavLink>
                     </NavItem>
                 </Nav>
             </Navbar>

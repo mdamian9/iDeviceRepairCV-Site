@@ -9,14 +9,19 @@ import {
 
 const items = [
   {
-    src: 'assets/images/sample-images/2.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    src: 'assets/images/repairs/01.png',
+    // altText: 'Slide 1',
+    // caption: 'Slide 1'
   },
   {
-    src: 'assets/images/sample-images/3.jpg',
-    altText: 'Slide 2',
-    caption: 'Slide 2' 
+    src: 'assets/images/repairs/02.png',
+    // altText: 'Slide 2',
+    // caption: 'Slide 2'
+  },
+  {
+    src: 'assets/images/repairs/03.png',
+    // altText: 'Slide 2',
+    // caption: 'Slide 2'
   }
 ];
 
@@ -67,7 +72,7 @@ class CarouselComponent extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} />
+          <img src={item.src} alt={item.altText}/>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
