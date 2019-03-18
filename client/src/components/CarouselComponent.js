@@ -78,6 +78,7 @@ class CarouselComponent extends Component {
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
+        interval={4000}
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}

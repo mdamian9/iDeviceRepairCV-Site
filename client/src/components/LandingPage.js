@@ -21,15 +21,17 @@ const LandingPage = () => {
     return (
         <div>
             <NavbarComponent />
-            <div className="full-div text-center">
+            <br />
+            <div className="container-fluid full-div text-center">
                 <h1 className="welcome">Welcome!</h1>
             </div>
-            <div className="full-div s-two">
-                <h1>
+            <div className="container-fluid full-div s-two">
+                <h1 className="text-center">
                     full
-                    </h1>
+                </h1>
             </div>
-            <div className='carousel-comp'>
+            <br />
+            <div className='container-fluid carousel-comp'>
                 <CarouselComponent />
             </div>
             <br />
