@@ -1,25 +1,42 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
 .full-div {
   height: 100vh;
   width: 100%;
 }
 
 .s-one {
-  color: black;
+  color: white;
+  border: 3px solid darkgrey;
+  padding: 220px 0px;
+}
+
+.s-one-content {
+  background: rgba(0, 0, 0, .85);
+  border-radius: 5px;
+  padding: 10px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.s-one p {
+  font-size: 22px;
 }
 
 .s-two {
   background: rgba(255, 255, 255, .85);
 }
 
-.welcome {
-  color: white;
-  font-size: 3.5rem;
-  font-family: 'Merriweather', serif;
-}
-
 .carousel-comp {
   margin: 0 auto;
-  width: 50%;
   text-align: center;
+  width: 60%;
+}
+
+.carousel-comp img {
+  width: 500px;
+  height: 500px;
 }
 

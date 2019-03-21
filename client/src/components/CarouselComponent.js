@@ -10,18 +10,18 @@ import {
 const items = [
   {
     src: 'assets/images/repairs/01.png',
-    // altText: 'Slide 1',
-    // caption: 'Slide 1'
+    altText: '',
+    caption: ''
   },
   {
     src: 'assets/images/repairs/02.png',
-    // altText: 'Slide 2',
-    // caption: 'Slide 2'
+    altText: '',
+    caption: ''
   },
   {
     src: 'assets/images/repairs/03.png',
-    // altText: 'Slide 2',
-    // caption: 'Slide 2'
+    altText: '',
+    caption: ''
   }
 ];
 
