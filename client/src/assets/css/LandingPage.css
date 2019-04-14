@@ -3,26 +3,26 @@ body {
 }
 
 .full-div {
-  height: 100vh;
-  width: 100%;
+  max-height: 100vh;
+  max-width: 100%;
 }
 
 .s-one {
   color: white;
   border: 3px solid darkgrey;
-  padding: 220px 0px;
 }
 
 .s-one-content {
   background: rgba(0, 0, 0, .85);
   border-radius: 5px;
   padding: 10px;
-  width: 75%;
+  max-width: 75%;
+  height: auto;
   margin: 0 auto;
 }
 
 .s-one p {
-  font-size: 22px;
+  font-size: 1.2rem
 }
 
 .s-two {
@@ -32,11 +32,12 @@ body {
 .carousel-comp {
   margin: 0 auto;
   text-align: center;
-  width: 60%;
+  max-width: 60%;
+  height: auto;
 }
 
 .carousel-comp img {
-  width: 500px;
-  height: 500px;
+  /* max-width: 500px;
+  max-height: 500px; */
 }
 

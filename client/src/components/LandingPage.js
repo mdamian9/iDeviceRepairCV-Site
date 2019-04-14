@@ -21,32 +21,24 @@ const LandingPage = () => {
     return (
         <div>
             <NavbarComponent />
-            <div className="container-fluid full-div s-one text-center">
-                <div className="row s-one-content">
-                    <div className="col-12">
-                        <h1>Welcome.</h1>
-                        <p>At iDeviceRepairCV, we strive to provide the best repairs and customer service possible.</p>
-                    </div>
+            <div className="full-div s-one text-center">
+                <div style={{maxWidth: '60%', margin: '0 auto'}}>
+                    <img src="assets/images/logo.png" alt="logo" style={{width: '100%'}}/>
                 </div>
-            </div>
-            <div className="container-fluid full-div s-two text-center">
-                <div className="row">
-                    <div className="col-4">
-                        One
-                    </div>
-                    <div className="col-4">
-                        Two
-                    </div>
-                    <div className="col-4">
-                        Three
-                    </div>
+                <br />
+                <div className="s-one-content">
+                    <h1>Welcome.</h1>
+                    At iDeviceRepairCV, we strive to provide the best repairs and customer service possible.
                 </div>
             </div>
             <br />
-            <div className='container-fluid carousel-comp'>
+            {/* <div className="container-fluid full-div s-two text-center">
+            </div>
+            <br /> */}
+            {/* <div className='carousel-comp'>
                 <CarouselComponent />
             </div>
-            <br />
+            <br /> */}
             <FooterComponent />
         </div>
     );
